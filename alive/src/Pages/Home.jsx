@@ -4,6 +4,12 @@ import style from "./Home.module.css";
 import { Text } from '@chakra-ui/react';
 import {Link} from "react-router-dom";
 import WeightLoss from '../Components/WeightLoss';
+import Slider1 from '../Components/Slider1';
+import Stats from '../Components/Stats';
+import Advice from '../Components/Advice';
+import Carousel from '../Components/Carousel';
+import Android from "../Components/Android";
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -25,6 +31,12 @@ const Home = () => {
     </div>
   </div>
   <WeightLoss/>
+  <Slider1/>
+  <Stats/>
+  <Advice/>
+  <Carousel/>
+  <Android/>
+  <Footer/>
     </div>
   )
 }
