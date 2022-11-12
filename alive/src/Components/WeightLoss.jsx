@@ -13,7 +13,7 @@ const WeightLoss = () => {
     })
  },[])
   return (
-    <div style={{marginTop:"40px"}}>
+    <div style={{margin:"40px 0px 60px 0px" }}>
      <Text fontSize="3xl" >Weight Loss Made Easy</Text>
     <Stack direction="row" w="70%" m="auto" spacing="20px" mt="30px" >
   {
