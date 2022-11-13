@@ -1,0 +1,28 @@
+.content{
+ display: flex;
+ justify-content: center;
+ background-image: url(https://assets.loseit.com/website/onboarding/Wave.svg);
+ background-repeat: no-repeat;
+ background-origin: border-box;
+ background-size: 100% auto;
+ background-position: bottom center;
+ padding-bottom: 100px;
+ height: 100vh;
+
+}
+
+.btn{
+ width: 200px;
+ background-color: #ff9400;
+padding: 10px;
+border-radius: 5px;
+margin: 0px auto;
+margin-top: 20px;
+font-size: 20px;
+color: white;
+}
+
+
+.btn:hover{
+ background-color: #ec8b04;
+}

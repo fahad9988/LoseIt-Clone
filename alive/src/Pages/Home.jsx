@@ -26,7 +26,7 @@ const Home = () => {
       <Text fontWeight="bold" textAlign="left" fontSize="6xl"  >Top Rated <br /> Weight Loss Plan</Text>
       <Text fontSize="xl" textAlign="left" >Track the foods you love and lose weight</Text>
 
-      <Link><button  style={{padding:"15px 30px",borderRadius:"5px",backgroundColor:"#183962",color:"white",marginTop:"20px"}} >Sign Up for Free</button></Link>
+      <Link to="getStarted/Q1" ><button  style={{padding:"15px 30px",borderRadius:"5px",backgroundColor:"#183962",color:"white",marginTop:"20px"}} >Sign Up for Free</button></Link>
      </div>
     </div>
   </div>
