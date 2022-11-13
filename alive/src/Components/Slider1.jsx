@@ -13,7 +13,7 @@ const Slider1 = () => {
 const [data,setData]=React.useState([]);
 
 React.useEffect(()=>{
-   fetch("http://localhost:8080/Slider1").then((res)=>{
+   fetch("https://alive-server.onrender.com/Slider1").then((res)=>{
     return res.json()
    }).then((res)=>{
     console.log(res);

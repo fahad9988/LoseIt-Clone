@@ -5,7 +5,7 @@ const WeightLoss = () => {
  const [data,setData]=React.useState([]);
 
  React.useEffect(()=>{
-    fetch("http://localhost:8080/LossData").then((res)=>{
+    fetch("https://alive-server.onrender.com/LossData").then((res)=>{
      return res.json()
     }).then((res)=>{
      console.log(res)
