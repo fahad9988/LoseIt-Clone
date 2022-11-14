@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../Components/Nav';
 import Foot from '../Components/Foot';
-import style from './Question3.module.css';
+import style from './Question5.module.css';
 import { Box,Text,Input,Heading } from '@chakra-ui/react';
 import { ChevronLeftIcon } from '@chakra-ui/icons';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Question5 = () => {
  const [error,setError]=React.useState(false);
-const {bday,setBday}=React.useContext(AppContext);
+const {bday,handleBday}=React.useContext(AppContext);
+
 let navigate=useNavigate()
 
   return (
@@ -23,16 +24,16 @@ let navigate=useNavigate()
    <Heading mt="30px" size="lg" >When's your birthday?</Heading>
 
    <Box mt="18px" mb="50px" >
-   <Input w="80%" type="date" bg="white" borderRadius="0px" value={bday}  onChange={(e)=>{setBday(e.target.value)}} />   
+   <Input w="80%" type="date" bg="white" borderRadius="0px" value={bday}  onChange={(e)=>{handleBday(e.target.value)}} />   
    {error&&<Text color="red" >Please enter your Birthday to proceed.</Text>}
    </Box>
    <button className={style.btn} onClick={()=>{
          if(!bday==""){
-          navigate("/getStarted/card");
+          navigate("/getStarted/plan");
          }else{
           setError(true)
          }
-         setBday("");
+         
       
    }}  >Continue</button>
    <Text fontSize="sm" w="80%" m="auto" >To create your personalized weight loss plan, Lose It! uses BMR (Basal Metabolic Rate) to calculate your calorie budget, which requires weight, height, biological sex and age as inputs.</Text>

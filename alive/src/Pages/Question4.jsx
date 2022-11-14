@@ -8,7 +8,7 @@ import Foot from '../Components/Foot';
 import { AppContext } from '../Context/AppContext';
 
 const Question4 = () => {
-const {gender,setGender} = React.useContext(AppContext);
+const {gender,handleGender} = React.useContext(AppContext);
 
   return (
     <div>
@@ -18,10 +18,10 @@ const {gender,setGender} = React.useContext(AppContext);
 <Link to="/getStarted/Q3" ><ChevronLeftIcon w="30px" h="30px" display="flex"/></Link>
    <Heading size="lg" mt="20px" mb="20px" >Select your biological sex:</Heading>
    <Link to="/getStarted/Q5" ><button className={style.btn} onClick={()=>{
-    setGender("female")
+    handleGender("female")
    }} >Female</button></Link>
    <Link to="/getStarted/Q5" ><button className={style.btn} onClick={()=>{
-    setGender("male")
+    handleGender("male")
    }} >Male</button></Link>
    <Text fontSize="sm" w="80%" m="auto" >To create your personalized weight loss plan, Lose It! uses BMR (Basal Metabolic Rate) to calculate your calorie budget, which requires weight, height, biological sex and age as inputs.</Text>
 

@@ -10,8 +10,12 @@ import Advice from '../Components/Advice';
 import Carousel from '../Components/Carousel';
 import Android from "../Components/Android";
 import Footer from '../Components/Footer';
+import { AppContext } from '../Context/AppContext';
 
 const Home = () => {
+
+const {auth} = React.useContext(AppContext);
+
   return (
     <div>
      <Navbar/>
@@ -25,8 +29,10 @@ const Home = () => {
      <div style={{textAlign:"left"}}>
       <Text fontWeight="bold" textAlign="left" fontSize="6xl"  >Top Rated <br /> Weight Loss Plan</Text>
       <Text fontSize="xl" textAlign="left" >Track the foods you love and lose weight</Text>
-
-      <Link to="getStarted/Q1" ><button  style={{padding:"15px 30px",borderRadius:"5px",backgroundColor:"#183962",color:"white",marginTop:"20px"}} >Sign Up for Free</button></Link>
+{
+  auth?null:<Link to="getStarted/Q1" ><button  style={{padding:"15px 30px",borderRadius:"5px",backgroundColor:"#183962",color:"white",marginTop:"20px"}} >Sign Up for Free</button></Link>
+}
+      
      </div>
     </div>
   </div>

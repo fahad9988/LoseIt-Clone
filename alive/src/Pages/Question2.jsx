@@ -12,8 +12,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Question2 = () => {
 const [error,setError]=React.useState(false);
-  const {weight,gWeight,setWeight,setgWeight} = React.useContext(AppContext);
-  
+  const {weight,handleWeight,gWeight,handlegWeight} = React.useContext(AppContext);
+
   let navigate=useNavigate();
  
 
@@ -29,14 +29,14 @@ const [error,setError]=React.useState(false);
    <Heading size="lg" >Current Weight</Heading>
 
    <Box  >
-   <Input w="40%" type="number" bg="white" borderRadius="0px" value={weight} onChange={(e)=>{setWeight(e.target.value)}}  />     <Input w="40%"  value="kg" readOnly  borderRadius="0px" ml="-3px" bg="white" />
+   <Input w="40%" type="number" bg="white" borderRadius="0px" value={weight} onChange={(e)=>{handleWeight(e.target.value)}}  />     <Input w="40%"  value="kg" readOnly  borderRadius="0px" ml="-3px" bg="white" />
    {error&&<Text color="red" >This is an unsupported Weight.</Text>}
    </Box>
 
    <Heading size="lg" >Goal Weight</Heading>
    
    <Box  >
-   <Input w="40%" type="number" bg="white" borderRadius="0px" value={gWeight} onChange={(e)=>{setgWeight(e.target.value)}} />     <Input w="40%"  value="kg" readOnly  borderRadius="0px" ml="-3px" bg="white" />
+   <Input w="40%" type="number" bg="white" borderRadius="0px" value={gWeight} onChange={(e)=>{handlegWeight(e.target.value)}} />     <Input w="40%"  value="kg" readOnly  borderRadius="0px" ml="-3px" bg="white" />
    {error&&<Text color="red" >This is an unsupported Weight.</Text>}
    </Box>
 
@@ -46,8 +46,7 @@ const [error,setError]=React.useState(false);
          }else{
           setError(true)
          }
-         setWeight("");
-         setgWeight("");
+       
    }}   className={style.btn} >Continue</button>
     </Box>
      </div>

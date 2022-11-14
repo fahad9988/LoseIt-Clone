@@ -7,6 +7,8 @@ import Question2 from '../Pages/Question2';
 import Question3 from '../Pages/Question3';
 import Question4 from '../Pages/Question4';
 import Question5 from "../Pages/Question5";
+import Plan from '../Pages/Plan';
+import Signup from '../Pages/Signup';
 
 const AllRoutes = () => {
   return (
@@ -18,6 +20,8 @@ const AllRoutes = () => {
      <Route path="/getStarted/Q3" element={<Question3/>} ></Route>
      <Route path="/getStarted/Q4" element={<Question4/>} ></Route>
      <Route path="/getStarted/Q5" element={<Question5/>} ></Route>
+     <Route path="/getStarted/plan" element={<Plan/>} ></Route>
+     <Route path="/signup" element={<Signup/>} ></Route>
     </Routes>
   )
 }

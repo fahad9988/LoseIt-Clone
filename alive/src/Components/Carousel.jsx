@@ -11,7 +11,7 @@ const [data,setData]=React.useState([]);
 
 React.useEffect(()=>{
     
-fetch("https://alive-server.onrender.com/Carousel").then((res)=>{
+fetch("https://loseit.onrender.com/Carousel").then((res)=>{
  return res.json();
 }).then((res)=>{
  setData(res)

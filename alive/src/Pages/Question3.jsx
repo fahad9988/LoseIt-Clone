@@ -10,7 +10,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Question3 = () => {
  const [error,setError]=React.useState(false);
-const {height,setHeight}=React.useContext(AppContext);
+const {height,handleHeight}=React.useContext(AppContext);
+
 let navigate=useNavigate()
 
   return (
@@ -23,7 +24,7 @@ let navigate=useNavigate()
    <Heading mt="30px" size="lg" >What's your height?</Heading>
 
    <Box mt="18px" mb="50px" >
-   <Input w="40%" type="number" bg="white" borderRadius="0px" value={height}  onChange={(e)=>{setHeight(e.target.value)}} />   
+   <Input w="40%" type="number" bg="white" borderRadius="0px" value={height}  onChange={(e)=>{handleHeight(e.target.value)}} />   
    <Input w="40%"  value="cm" readOnly  borderRadius="0px" ml="-3px" bg="white" />
    {error&&<Text color="red" >Please enter your Height to proceed.</Text>}
    </Box>
@@ -33,7 +34,7 @@ let navigate=useNavigate()
          }else{
           setError(true)
          }
-         setHeight("");
+        
       
    }}  >Continue</button>
    <Text fontSize="sm" w="80%" m="auto" >To create your personalized weight loss plan, Lose It! uses BMR (Basal Metabolic Rate) to calculate your calorie budget, which requires weight, height, biological sex and age as inputs.</Text>

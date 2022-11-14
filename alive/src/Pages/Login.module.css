@@ -1,10 +1,10 @@
 .btn{
- width: 200px;
+ width: 320px;
  background-color: #ff9400;
-padding: 10px;
+padding: 5px;
 border-radius: 5px;
 margin: 0px auto;
-margin-top: 20px;
+margin-top: 10px;
 font-size: 20px;
 color: white;
 }
