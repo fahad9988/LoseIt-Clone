@@ -5,6 +5,7 @@
 
 <h2>Homepage</h2>
 <img src="https://i.ibb.co/XpLc9Vc/Screenshot-7785.png" alt="Reliance Digital" border="0">
+<img src="https://i.ibb.co/CKM30yg/Screenshot-7794.png" alt="Reliance Digital" border="0">
 <h2>Login/Signup Page</h2>
 <img src="https://i.ibb.co/WF6tBKD/Screenshot-7697.pn" alt="Reliance Digital" border="0">
 <h2>Products Page</h2>
