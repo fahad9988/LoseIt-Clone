@@ -4,7 +4,7 @@
 <p>This is the clone of LoseIt! website which is a weight Loss website created with the goal of helping members reach a healthy weight by providing them with the tools such as daily calorie budget counter . This is an individual project that I have completed in 2 days.</p>
 
 <h2>Homepage</h2>
-<img src="https://i.ibb.co/1msW618/Screenshot-7696.pn" alt="Reliance Digital" border="0">
+<img src="https://i.ibb.co/XpLc9Vc/Screenshot-7785.png" alt="Reliance Digital" border="0">
 <h2>Login/Signup Page</h2>
 <img src="https://i.ibb.co/WF6tBKD/Screenshot-7697.pn" alt="Reliance Digital" border="0">
 <h2>Products Page</h2>
