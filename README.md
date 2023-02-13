@@ -7,10 +7,15 @@
 <img src="https://i.ibb.co/XpLc9Vc/Screenshot-7785.png" alt="Loseit" border="0">
 <img src="https://i.ibb.co/CKM30yg/Screenshot-7794.png" alt="Loseit" border="0">
 <h2>Login/Signup Page</h2>
-<img src="https://i.ibb.co/WF6tBKD/Screenshot-7697.pn" alt="Loseit" border="0">
-<h2>Products Page</h2>
-<img src="https://i.ibb.co/r29hhqk/Screenshot-7699.pn" alt="Loseit" border="0">
-<img src="https://i.ibb.co/FJKnnkm/Screenshot-7700.pn" alt="Loseit" border="0">
+<img src="https://i.ibb.co/FKTNxJR/Screenshot-7786.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/x5VRqKd/Screenshot-7793.png" alt="Loseit" border="0">
+<h2>Calorie Budget Calculator</h2>
+<img src="https://i.ibb.co/BNdGCxq/Screenshot-7787.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/s2CgpD7/Screenshot-7788.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/KwzNfpt/Screenshot-7789.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/PMXjxmB/Screenshot-7790.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/6wvfPH2/Screenshot-7791.png" alt="Loseit" border="0">
+<img src="https://i.ibb.co/9c53DDY/Screenshot-7792.png" alt="Loseit" border="0">
 
 <h2>Tech Stacks used in this project</h2>
 <ul>
