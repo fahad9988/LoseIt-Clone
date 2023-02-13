@@ -14,8 +14,7 @@
 <img src="https://i.ibb.co/s2CgpD7/Screenshot-7788.png" alt="Loseit" border="0">
 <img src="https://i.ibb.co/KwzNfpt/Screenshot-7789.png" alt="Loseit" border="0">
 <img src="https://i.ibb.co/PMXjxmB/Screenshot-7790.png" alt="Loseit" border="0">
-<img src="https://i.ibb.co/6wvfPH2/Screenshot-7791.png" alt="Loseit" border="0">
-<img src="https://i.ibb.co/9c53DDY/Screenshot-7792.png" alt="Loseit" border="1px solid black">
+<img src="https://i.ibb.co/9c53DDY/Screenshot-7792.png" alt="Loseit" border="0" style="border:1px solid black">
 
 <h2>Tech Stacks used in this project</h2>
 <ul>
