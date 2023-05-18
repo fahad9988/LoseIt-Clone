@@ -7,19 +7,51 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+const data=[
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_WaterTracking.svg",
+    "Title": "Water Tracking",
+    "Desc": "Track your water intake to make sure you're getting the recommended amount daily."
+  },
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_Macros.svg",
+    "Title": "Macro Tracking",
+    "Desc": "Set personalized macronutrient goals to ensure you’re getting enough protein, carbs, and more."
+  },
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_DeviceIntegration.svg",
+    "Title": "Device Integration",
+    "Desc": "Connect Apple Health and Google Fit for easy exercise tracking."
+  },
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_PatternsReports.svg",
+    "Title": "Patterns & Reports",
+    "Desc": "Get reports on your behaviors and progress straight to your inbox."
+  },
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_Barcode.svg",
+    "Title": "Scanner Feature",
+    "Desc": "Use your camera to scan package barcodes for quick tracking or create new foods with the nutrition label auto-fill."
+  },
+  {
+    "Image": "https://assets.loseit.com/website/home/Features_SnapIt.svg",
+    "Title": "Smart Camera",
+    "Desc": "Use your camera to take a picture of your food and allow Lose It! technology to help you log it."
+  }
+]
 
 const Slider1 = () => {
 
-const [data,setData]=React.useState([]);
+// const [data,setData]=React.useState([]);
 
-React.useEffect(()=>{
-   fetch("https://loseit.onrender.com/Slider1").then((res)=>{
-    return res.json()
-   }).then((res)=>{
-    console.log(res);
-    setData(res)
-   })
-},[])
+// React.useEffect(()=>{
+//    fetch("https://loseit.onrender.com/Slider1").then((res)=>{
+//     return res.json()
+//    }).then((res)=>{
+//     console.log(res);
+//     setData(res)
+//    })
+// },[])
 
   return (
    <Box bg="#f1f1f1" p="50px 0px 20px 0px">
