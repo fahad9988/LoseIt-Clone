@@ -57,15 +57,17 @@ const Carousel = () => {
 
 // },[])
 
-    let box = document.querySelector('.product-container');
+   
 
     const btnpressprev = () => {
+        let box = document.querySelector('.product-container');
         let width = box.clientWidth;
         box.scrollLeft = box.scrollLeft - width;
-        console.log(width)
+        console.log(width,"hi")
     }
 
     const btnpressnext = () => {
+        let box = document.querySelector('.product-container');
         let width = box.clientWidth;
         box.scrollLeft = box.scrollLeft + width;
         console.log(width)
